@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+.page1
+{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 10vw;
+    height: 200px;
+    background-color: red;
+}
+.page2
+{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2 #box
+{
+    height: 300px;
+    width: 350px;
+    background-color: crimson;
+}
+.page3
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 228, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.page3 p{
+    font-size: 25px;
+    font-weight: 800;
+}

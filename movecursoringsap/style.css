@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+    background-color: #c5a8a8;
+   
+}
+.main
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.cursor
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    z-index: 9;
+}
+
+.image
+{
+    height: 30vw;
+    width: 60vw;
+    background-color: red;
+    position: relative;
+}
+
+img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.overlay
+{
+    background-color:transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
